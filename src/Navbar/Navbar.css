@@ -1,0 +1,138 @@
+.navbar-desktop{
+    /* border: 2px solid red; */
+}
+.desktop-container{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+.logo h1{
+    font-size: 3rem;
+    color: #F5E551;
+    text-transform: uppercase;
+    /* border: 2px solid black; */
+    padding: 1rem;
+    background-color: black;
+}
+.desktop-links{
+
+}
+.desktop-links ul {
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;    
+}
+.desktop-links li {
+    
+}
+
+
+.desktop-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 1rem;
+    border: 2px solid black;
+    margin-left: 1rem; 
+    background-color: #F6DA0A;
+    border-radius: 1rem;
+
+
+}
+.desktop-links a:hover{
+    color: #F6DA0A;
+    background-color: black;
+    border: 2px solid #F6DA0A;
+    transition: 0.5s;    
+}
+/* ------- Mobile Menu-------- */
+
+.navbar-mobile{
+/* border: 2px solid green; */
+display: none;
+}
+.mobile-container{
+display: flex;
+justify-content: space-between;
+flex-direction: row-reverse;
+
+}
+.ham-icon{
+font-size: 38px;
+/* display: flex;
+justify-content: flex-end; */
+/* border: 2px solid black; */
+}
+
+.ham-icon:hover{
+    color: #F6DA0A;
+    transition: 0.5s;
+}
+.mobile-links{
+/* border: 2px solid black; */
+width: 100%;
+position: relative;
+}
+.mobile-links ul{
+    list-style: none;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: bold;
+    background-color: #F6DA0A;
+    /* text-align: center; */
+    position: absolute;
+    /* border: 2px solid red; */
+    width: 100%;
+    /* border-radius: 2rem; */
+    z-index: 90;
+
+    
+}
+.mobile-links ul:hover{
+    /* background: black; */
+}
+.mobile-links li {
+/* border: 2px solid black; */
+background-color: #F6DA0A;
+/* width: 100%; */
+/* width: 50%; */
+padding: 1.5rem;
+/* margin-bottom: 1rem; */
+text-align: center;
+}
+.mobile-links li:hover{
+    background: black;
+    /* border: 2px solid #F6DA0A; */
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.mobile-links li:hover >a{
+    color: #F6DA0A;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.mobile-links a{
+    text-decoration: none;
+    color: black;
+
+}
+
+/* ************ Media Queries************** */
+
+@media (max-width: 990px){
+    .desktop-links{
+        display: none;
+    }
+    .desktop-container{
+        justify-content: center;
+    }
+    .navbar-mobile{
+        /* border: 2px solid green; */
+        display: flex;
+        
+        }
+}

@@ -1,0 +1,94 @@
+.testi{
+    /* border: 2px solid red; */
+  
+    background: conic-gradient(grey 0 90deg, #F6DA0A 90deg 270deg, grey 270deg 360deg );
+    padding: 10rem 0;
+    /* height: 100vh; */
+}
+.testi-heading{
+    font-size: 4rem;
+    padding: 5rem;
+    text-align: center;
+    /* border: 2px solid red; */
+    
+}
+
+.testi-container{
+    /* border: 2px solid blue; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* padding: 2rem; */
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.testi-items{
+    /* border: 2px solid red; */
+    padding: 2rem;
+    /* margin-right: 1rem; */
+    /* gap: 4rem; */
+    
+    
+}
+.testi-text{
+    /* gap: 2rem; */
+    border: 2px solid green;
+    height: 60rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 2rem;
+    /* width: 40rem; */
+    
+}
+.para{
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-bottom: 5rem;
+}
+.testi-image{
+    /* border: 2px solid orange; */
+    width: 15rem;
+    height: 15rem;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+.testi-image img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+    
+    
+}
+.testi-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.position{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Media Queries */
+
+@media(max-width:600px)
+{
+    .testi-container{
+        
+        flex-wrap: wrap;        
+        
+    }
+}
+@media(max-width:420px){
+    .testi-heading h1{
+        font-size: 2.5rem;
+    }
+}

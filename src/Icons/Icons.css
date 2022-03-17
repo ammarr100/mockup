@@ -1,0 +1,142 @@
+.icon{
+    padding: 3rem 0;
+    /* border: 2px solid red; */
+    background: #D6D6D8;
+}
+.icon-container{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+    
+   gap: 2rem;
+    
+}
+.icon-items{
+   margin-top: -10rem; 
+    /* border: 2px solid green; */
+    text-align: center;
+    padding: 3rem;
+    flex: 1 1 250px;
+    width: 25rem;
+    /* max-width: 25rem; */
+    
+    border-radius: 2rem;
+    background: white;
+    margin-bottom: 10rem;
+    
+}
+.icon-items h1{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.icon-items i {
+    font-size: 8rem;
+    margin-bottom: 2rem;
+    /* border: 2px solid red; */
+    padding: 2rem;
+    border-radius: 5rem;
+    background:#F6DA0A;
+    
+}
+
+/* ******************************** Media Queries******************** */
+/* @media (max-width:1400px) {
+    .icon-container{
+        left: 5.5%;
+        padding: 0rem;
+        flex-wrap: nowrap;
+        top: 72%;
+    }
+    .icon-items{
+      
+        padding: 2rem;       
+        
+    }
+    
+    .icon-items i {
+        font-size: 7rem;       
+        
+    }
+}
+
+@media (max-width:1050px){
+    .icon-container{
+        flex-wrap: nowrap;
+        top: 75%;
+        
+    }
+
+   
+    .icon-items h1{
+        font-size: 1.8rem;
+    }
+    
+    .icon-items i {
+        font-size: 5rem;       
+        
+    }
+}
+
+@media (max-width:990px){
+    .icon-container{
+        flex-wrap: nowrap;
+        top: 83%;
+        
+    }
+
+    .icon-items{
+
+        padding: 1rem;       
+
+        
+    }
+    .icon-items h1{
+        font-size: 2rem;
+    }
+    
+    .icon-items i {
+        font-size: 4rem;       
+        
+    }
+}
+
+
+@media (max-width:600px){
+    .icon-container{
+        flex-wrap: wrap;
+
+
+    }
+    .icon-items{
+
+        margin-left: 2rem;           
+        
+    }   
+
+    .icon-items h1{
+        font-size: 1.8rem;
+    }
+    
+    .icon-items i {
+        font-size: 3rem;       
+        
+    }
+}
+
+@media (orientation:landscape) and (max-width: 920px){
+    .icon-container{
+
+        top: 100%;
+}
+.icon-items h1{
+    font-size: 1.8rem;
+}
+
+.icon-items i {
+    font-size: 4rem;       
+    
+}
+} */

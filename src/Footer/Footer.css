@@ -1,0 +1,15 @@
+.footer{
+    height: 12vh;
+    background: #333333;
+}
+.footer-container{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.footer-text{
+    /* border: 2px solid orange; */
+    color: white;
+}

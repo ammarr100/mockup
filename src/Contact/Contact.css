@@ -1,0 +1,121 @@
+.contact{
+    /* border: 2px solid red; */
+    padding: 20rem 0;
+    background-color: whitesmoke;
+}
+.contact-container{
+    /* border: 2px solid blue; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 5rem;
+    gap: 5rem;
+}
+.contact-left{
+    /* border: 2px solid orange; */
+    flex: 1 1 600px;
+    width: 50rem;
+    max-width: 50rem;
+    padding: 3rem;
+}
+.contact-left h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem;    
+}
+.contact-left h1{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.contact-left p {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 8rem;
+
+}
+.social-icons{
+    font-size: 3rem;
+    /* color: grey;     */
+    
+    
+}
+.social-icons ul {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    margin-bottom: 3rem;
+    
+}
+/* .social-icons li {
+    background-color: white;
+    border-radius: 100%;
+    border: 2px solid black;
+    
+} */
+
+/* ******* Contact Right***** */
+
+
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;    
+    /* border: 2px solid black; */
+    justify-content: flex-end;
+    width: 50%;
+    border-radius: 2rem;
+    background-color: white;
+    margin-left: 10rem;
+}
+.inputArea{
+    /* border: none; */
+    /* border: 2px solid red; */
+    /* margin-bottom: 3rem; */
+    padding: 3rem;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+/* ********* Media Quries*********** */
+
+@media (max-width: 990px){
+    .contact-container{
+        
+        
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        /* align-items: center; */
+        
+    }
+    .contact-left{
+        
+        /* flex: 1 1 600px; */
+        width: 100%;
+        max-width: 100%;
+        
+    }
+
+    .contact-right {
+        
+        width: 100%;
+        max-width: 100%;        
+        margin-left: 0rem;
+        
+    }
+
+}
+
+@media(max-width: 420px){
+    .contact-container{
+        padding: 0;
+    }
+    .contact-left p{
+        font-size: 1.5rem;
+    }
+    .contact-left h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+

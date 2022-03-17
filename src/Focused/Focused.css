@@ -1,0 +1,141 @@
+.focused{
+    /* border: 2px solid red; */
+    padding: 5rem 0;
+}
+.focused-container{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image-background{
+    /* border: 2px solid orange; */
+    width: 60rem;
+    height: 20rem;    
+    margin: 5rem 0;
+    position: relative;
+    /* padding: 3rem; */
+    /* margin: 3rem; */
+    background-color: #F6DA0A;
+    
+    
+}
+.focused-image{
+    position: absolute;
+   /* border: 2px solid green; */
+   width: 30rem;
+    height: 30rem;
+    border-radius: 100%;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.focused-image img {
+    width: 100%;
+    height: 100%;
+    /* max-width: 100%; */
+    border-radius: 100%;
+    
+   
+    
+    object-fit: cover;
+    object-position: center;
+}
+.heading-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    text-align: center;
+    /* margin-bottom: 3rem; */
+}
+.heading-text h1 {
+    margin: 2rem 0;
+    font-size: 2rem;
+    /* font-weight: lighter; */
+    /* border: 2px solid blue; */
+    width: 25%;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    
+    
+}
+.heading-text p {
+    margin: 2rem 0;
+    /* border: 2px solid black; */
+    font-size: 1.5rem;
+    line-height: 3rem;
+    width: 40%;    
+    color: light rgba(168, 148, 148, 0.459);
+}
+/* Media Queries */
+@media(max-width:650px){
+
+    .image-background{
+        
+        width: 35rem;
+        height: 25rem;      
+        
+        
+    }
+    
+    
+    .heading-text h1 {
+        
+        font-size: 1.5rem;
+        
+        
+        width: 70%;
+        
+        
+        
+    }
+    .heading-text p {
+        margin: 2rem 0;
+        /* border: 2px solid black; */
+        font-size: 1.5rem;
+        line-height: 3rem;
+        width: 70%;    
+        color: blue;
+    }
+   
+}
+
+@media(max-width:400px){
+    .image-background{
+        
+        width: 34rem;
+        height: 25rem;       
+        
+    }
+
+    
+    .heading-text h1 {
+        
+        font-size: 1.5rem;
+        
+        
+        width: 90%;
+        
+        
+        
+    }
+    .heading-text p {
+        margin: 2rem 0;
+        /* border: 2px solid black; */
+        font-size: 1.5rem;
+        line-height: 3rem;
+        width: 90%;    
+        color: light rgba(168, 148, 148, 0.459);
+    }
+   
+   
+} 
+

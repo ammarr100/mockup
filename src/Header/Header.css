@@ -1,0 +1,43 @@
+.header{
+    /* background-image: url(../Header/header.jpg);
+    
+    background-color: salmon;
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height: 80vh;
+    /* border: 2px solid black; */
+    
+
+}
+.header-container{  
+    
+    height: 100%;
+    
+}
+.header-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    max-width: 100%;
+    
+}
+
+/* Media Queries */
+
+@media (max-width:920px ){
+    .header-container img{
+        
+    object-position:65%;    
+    /* border: 2px solid orange; */
+    }
+
+}
+
+@media (max-width: 550px ){
+    .header-container img {
+        object-position: 70%;
+    }
+}

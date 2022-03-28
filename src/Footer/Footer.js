@@ -1,18 +1,17 @@
-import React from 'react';
+import React from 'react'
 import './Footer.css'
 
 const Footer = () => {
   return (
-      <>
-          <footer className='footer'>
-            <div className='footer-container'>
-                <div className='footer-text'>
-                <p>Created by Ammar Rashid</p>
-                </div>
-            </div>
-          </footer>
-      </>
+    <footer className='footer-section'>
+    <div className='footer-content'>
+    <p>Developed by Ammar Rashid</p>
+    <a href="https://ammar.tech" target='_blank'>Visit : ammar.tech</a>
+        
+    </div>
+        
+    </footer>
   )
-};
+}
 
-export default Footer;
+export default Footer

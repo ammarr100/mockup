@@ -33,7 +33,7 @@
 }
 .testi-text{
     /* gap: 2rem; */
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 60rem;
     padding: 2rem;
     background: white;
@@ -89,6 +89,6 @@
 }
 @media(max-width:420px){
     .testi-heading h1{
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
 }

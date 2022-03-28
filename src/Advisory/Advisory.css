@@ -139,6 +139,7 @@ object-position: center;
     margin: auto;   
     margin-top: 5rem;
     border: none;
+    cursor: pointer;
     
 }
 

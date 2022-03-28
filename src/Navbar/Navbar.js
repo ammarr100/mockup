@@ -4,6 +4,7 @@ import Mobile from './Mobile';
 import './Navbar.css'
 import {FiMenu} from 'react-icons/fi'
 import {CgClose} from 'react-icons/cg'
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -18,7 +19,8 @@ const Navbar = () => {
           <section className='navbar-desktop'>
                 <div className='desktop-container container'>
                 <div className='logo'>
-                    <h1>Logo</h1>
+                    {/* <h1>Logo</h1> */}
+                    <NavLink to="/">Logo</NavLink>
                 </div>
                     <div className='desktop-links'>
                     <Desktop/>

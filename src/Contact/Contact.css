@@ -1,6 +1,6 @@
 .contact{
     /* border: 2px solid red; */
-    padding: 20rem 0;
+    padding: 5rem 0;
     background-color: whitesmoke;
 }
 .contact-container{
@@ -10,7 +10,7 @@
     /* justify-content: center; */
     /* align-items: center; */
     padding: 5rem;
-    gap: 5rem;
+    gap: 3rem;
 }
 .contact-left{
     /* border: 2px solid orange; */

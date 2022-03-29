@@ -12,7 +12,7 @@ const Contact = () => {
        }}>
           <section className='contact'>
               <div className='contact-container container'>
-                  <div className='contact-left'>
+                  <div className='contact-left' data-aos='flip-left'>
                     <h2>Join our Newsletter</h2>
                     <h1>Contact Us</h1>
                     <p>3045 10 Sunrize Avenue, 123-456-7890 <br />
@@ -32,7 +32,7 @@ const Contact = () => {
                     </div>
                     
                   </div>
-                  <div className='contact-right'>
+                  <div className='contact-right' data-aos='zoom-in'>
                 
                   <input className='inputArea' type="text" placeholder='Enter your Name' />
                     <input className='inputArea' type="email" placeholder='Enter your Email Address' />

@@ -7,7 +7,7 @@ const TestimonialsIndex = () => {
 
 <section className='testi'>
 <div className='testi-heading container'>
-                    <h1>What do our users say ?</h1>
+                    <h1 data-aos='zoom-in'>What do our users say ?</h1>
                     </div>
                 <div className='testi-container container'>
                     

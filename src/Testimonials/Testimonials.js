@@ -5,8 +5,8 @@ const Testimonials = ({testiText, person, userName, position}) => {
   return (
       <>
           
-                    <div className='testi-items'>
-                    <div className='testi-text'>
+                    <div className='testi-items' data-aos='flip-left'>
+                    <div className='testi-text' >
                     <p className='para'>{testiText}</p>
                     <div className='testi-image'>
                     <img src={person} alt="" />

@@ -7,7 +7,7 @@ const ProjectsIndex = () => {
       <>
       <section className='projects'>
             <div className='projects-container container'>
-            <div className='project-Heading'>
+            <div className='project-Heading' data-aos='zoom-in'>
                 <h1>Our Projects</h1>
                 <p>“You can do anything you set your mind to.”<br />
                 - Benjamin Franklin</p>

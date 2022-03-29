@@ -10,7 +10,7 @@ const Icons = ({logo,text}) => {
       <>
 
 
-<div className='icon-items'>
+<div className='icon-items' data-aos='zoom-in'>
     <div className='icon-service'>
     <i class = {`icons-colors ${logo}`} ></i>
     </div>

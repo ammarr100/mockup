@@ -6,7 +6,7 @@ const DesignIndex = () => {
   return (
       <>
       <section className='design'>
-            <div className='design-heading'>
+            <div className='design-heading' data-aos='zoom-in'>
                 <h1>Design and Development</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br /> Molestiae, rerum?</p>
                 </div>

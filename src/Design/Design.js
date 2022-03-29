@@ -7,7 +7,7 @@ const Design = ({DesignHeading,plus, DesignList}) => {
       <>
           
             
-            <div className='design-items'>
+            <div className='design-items' data-aos='flip-right'>
             <h1>{DesignHeading}</h1>
             <ul> 
             <li>{plus}</li>           

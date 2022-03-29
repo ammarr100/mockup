@@ -6,8 +6,8 @@ const Header = () => {
       <>
         <section className='header'>
             <div className='header-container'>  
-           
-              <img src={header} alt="" />  
+
+              <img src={header} alt="" data-aos='zoom-in'/>  
            
             
             </div>

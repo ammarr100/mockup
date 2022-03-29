@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Advisory from './Advisory/Advisory';
 import Company from './Company/Company';
 import Contact from './Contact/Contact';
@@ -11,8 +11,15 @@ import IconsIndex from './Icons/IconsIndex';
 import Navbar from './Navbar/Navbar';
 import ProjectsIndex from './Projects/ProjectsIndex';
 import TestimonialsIndex from './Testimonials/TestimonialsIndex';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+
 
 const Home = () => {
+
+  useEffect(()=>{
+    Aos.init({duration:2000, offset:200})
+  },[])
   return (
       <>
       
@@ -26,6 +33,7 @@ const Home = () => {
       <DesignIndex/>
       <Contact/>
       <Footer/>
+    
       {/* <Advisory/> */}
           
       </>

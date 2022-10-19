@@ -18,7 +18,7 @@ const Contact = () => {
                     <p>3045 10 Sunrize Avenue, 123-456-7890 <br />
                     Mon – Fri: 9:00 am – 8:00 pm,
                     Sat – Sun: 9:00 am – 10 pm <br />
-                    ammarr@msn.com
+                    contact@ammar.tech
                     </p>
                     <h1>Follow Us</h1>
                     <div className='social-icons'>
